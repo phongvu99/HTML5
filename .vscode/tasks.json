@@ -6,6 +6,6 @@
     "windows": {
         "command": "explorer.exe"
     },
-    "args": ["test_3.html"],
+    "args": ["rithmexercise_1.html"],
     "problemMatchers": [],
 }
