@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+}
+
+.text {
+    font-family: arial, sans-serif;
+}
+
+nav p.text {
+    font-size: 13px;
+    text-align: right;
+    word-spacing: 12px;
+    padding: 30px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+a.navbar:visited,
+a.navbar:link {
+    text-decoration: none;
+}
+
+a.navbar:hover,
+a.navbar:active {
+    text-decoration: underline;
+}
+
+#glogo {
+    display: flex;
+    flex: auto;
+    padding-top: 117px;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-left: auto;
+    width: 500px;
+    height: 180px;
+}
+
+.sbar {
+    text-align: center;
+}
+
+.sbarbutton {
+    margin: 10px;
+    text-align: center;
+}
+
+input#boogle {
+    border-radius: 40px;
+    border: 1px solid #eaeaea;
+    margin: 1px;
+    padding: 10px;
+    padding-left: 20px;
+    outline: none;
+    height: 25px;
+    width: 550px;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    line-height: 34px;
+}
+
+input#boogle:hover {
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+
+input#boogle:focus {
+    border-color: #4d90fe;
+}
+
+input.gbutton[type="submit"] {
+    margin: 20px 4px;
+    min-width: 54px;
+    color: #5f6368;
+    border: 1px solid #f2f2f2;
+    height: 36px;
+    line-height: 27px;
+    border-radius: 4px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    padding: 0px 16px;
+}
+
+input.gbutton:hover {
+    box-shadow: 2px 2px #f2f2f2;
+    color: black;
+}
+
+div.text#languages {
+    margin-top: 16px;
+    text-align: center;
+    font-size: small;
+    line-height: 3px;
+}
+
+a.language:visited,
+a.language:link {
+    text-decoration: none;
+}
+
+a.language:hover,
+a.language:active {
+    text-decoration: underline;
+}
+
+div.text#languages span>a.language {
+    margin-left: 3px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+footer {
+    background-color: #f2f2f2;
+}
+
+a.googlefooter:visited,
+a.googlefooter:link {
+    text-decoration: none;
+}
+
+a.googlefooter:hover,
+a.googlefooter:active {
+    text-decoration: underline;
+}
+
+a.googlefooter {
+    color: #9e6f6f;
+    line-height: 40px;
+    font-size: 10pt;
+    margin-left: 27px;
+    margin-right: 27px;
+}
+
+#location {
+    text-align: left;
+    color: #9e6f6f;
+    padding-left: 27px;
+    line-height: 40px;
+    font-size: 11pt;
+}
+
+hr {
+    display: block;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0;
+    padding: 0;
+}
+
+span#f1 {
+    line-height: 40px;
+    font-size: 10px;
+    font-size: small;
+    left: 0;
+}
+
+span#f2 {
+    margin-left: 910px;
+    line-height: 40px;
+    font-size: 10px;
+    font-size: small;
+    right: 0;
+}

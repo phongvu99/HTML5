@@ -1,0 +1,62 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    background: url(https://i.stack.imgur.com/l0JyZ.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.vertical-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+header {
+    margin-top: 20px;
+}
+
+nav {
+    margin: 10px;
+}
+
+img~p {
+    margin-top: 25px;
+}
+
+.text {
+    margin: auto;
+    margin-top: 50px;
+    max-width: 65em;
+    text-align: center;
+}
+
+img:not(.ainsley) {
+    overflow: auto;
+    min-width: 10%;
+    max-width: 50%;
+}
+
+.ainsley {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+footer {
+    margin: 20px;
+}
