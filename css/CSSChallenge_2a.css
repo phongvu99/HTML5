@@ -1,0 +1,43 @@
+html {
+    background: #e2ac7f no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div#container {
+    padding-left: 28em;
+    padding-right: 28em;
+}
+
+div#wrap>h1 {
+    font-size: 2.3em;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-top: 4px dashed black;
+    border-bottom: 4px dashed black;
+}
+
+div#wrap>ul>li::first-letter {
+    font-size: 1.5em;
+}
+
+div#wrap>ul>li {
+    font-style: italic;
+}
+
+div#wrap>p:first-of-type {
+    margin-left: auto;
+    margin-right: auto;
+    width: 570px;
+    text-align: justify;
+}
+
+#wrap {
+    border: 4px dashed black;
+    border-top: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

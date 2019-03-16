@@ -1,0 +1,51 @@
+div {
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    /*FLEX DIRECTION - can reverse etc*/
+    flex-direction: column;
+    background: #F60009;
+    height: 500px;
+    width: 500px;
+}
+
+.first {
+    display: flex;
+    background: #53007A;
+    /*VERTICAL*/
+    align-items: center;
+    /*HORIZONTAL*/
+    justify-content: space-around;
+    /*ORDER  -1 first, highest last */
+    order: 0;
+}
+
+.second {
+    background: #FC9709;
+    order: -1;
+}
+
+.third {
+    background: #A800DF;
+    align-self: flex-end;
+    order: -1;
+}
+
+.fourth {
+    background: #8BE7E6;
+    order: 2;
+}
+
+.fifth {
+    background: #93B112;
+    order: 3;
+}
+
+.sixth {
+    background: #E6F0BA;
+    order: 4;
+}

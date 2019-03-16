@@ -1,0 +1,30 @@
+html {
+    background: url(../image/abstract_wallpaper.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.some_text {
+    color: black;
+    background-color: purple;
+    font-size: 16px;
+    text-align: center;
+    font-family: helvetica, sans-serif;
+    letter-spacing: 5px;
+    text-transform: lowercase;
+    /* text-shadow: 3px 3px 0 black; */
+    /* first value is horizontal/x offset */
+    /* second value is vertical/y offset */
+    /* third value is how much blur */
+    /* fourth value is the color */
+    /* you can even have multiple shadows separated by a comma! */
+    line-height: 3em;
+    font-variant: small-caps;
+}
+
+.div {
+    background-color: purple;
+    border-radius: 5px;
+}
