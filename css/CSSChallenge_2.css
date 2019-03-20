@@ -6,6 +6,11 @@ html {
     background-size: cover;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 #wrap {
     width: 45em;
     text-align: center;
@@ -18,7 +23,6 @@ div#wrap>ul>li::first-letter {
 }
 
 div>h1 {
-    /* padding-left: 12.25em; */
     text-align: left;
 }
 
