@@ -14,11 +14,16 @@ html {
 }
 
 #wrap {
-    width: 60em;
-    margin: 1em;    
-    margin-left: auto;  
+    width: 54em;
+    margin: 1em;
+    margin-left: auto;
     margin-right: auto;
-    border: 0.5em solid royalblue; 
+    border: 0.5em solid royalblue;
+}
+
+#main_header>h1 {
+    padding: 0;
+    margin: 0;
 }
 
 #main_header {
@@ -26,17 +31,13 @@ html {
     border-bottom: 0.5em solid royalblue;
 }
 
-#main_header>h1 {
-    margin: 0;
-}
-
 #main {
     display: flex;
     flex: 1 1 auto;
     flex-flow: row wrap;
     justify-content: space-between;
-    /* outline: 1em solid crimson; */
-    margin: 2em 3em;
+    /* outline: 1em solid crimson;  */
+    margin: 2em 1.5em;
     /* text-align: center; */
 }
 
@@ -47,12 +48,26 @@ html {
     align-items: center;
     -webkit-justify-content: center;
     justify-content: center;
-    height: 4.5em;
-    width: 12em;
+    flex-flow: column nowrap;
+    flex: 1 1 auto;
+    width: 60em;
+    height: 4em;
     margin-bottom: 2em;
-    padding: 1em;    
+    padding: 1em;
     border: 0.5em solid black;
-    background-color: #ea9999;
+    background-color: #009e0f;
+}
+
+.image {
+    background: url(../image/lasagna_edited.jpg);
+    width: 15em;
+    height: 15em;
+    margin-bottom: 2em;
+}
+
+.image:hover,
+.image:active {
+    background: url(../image/pikachu.jpg) no-repeat center center fixed;
 }
 
 .box2 {
@@ -62,26 +77,27 @@ html {
     align-items: center;
     -webkit-justify-content: center;
     justify-content: center;
-    height: 4.5em;
-    width: 30em;
-    margin-right: 2em;
+    flex-flow: row nowrap;
+    flex: 1 1 auto;
+    height: 10em;
     padding: 1em;
     border: 0.5em solid black;
-    background-color: #9fc5f8;
+    background-color: #8e7cc3;
 }
 
-.box3 {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    flex-flow: column nowrap;
-    flex: 1 1 auto;
-    height: 4.5em;
+#second,
+#third {
     margin-right: 2em;
-    padding: 1em;
-    border: 0.5em solid black;    
-    background-color: #ffe599;
+}
+
+#second {
+    background-color: #ff9900;
+}
+
+#third {
+    background-color: #cf2a27;
+}
+
+#fourth {
+    background-color: #6fa8dc;
 }
