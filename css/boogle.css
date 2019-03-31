@@ -4,7 +4,7 @@ body {
     font-family: arial, sans-serif;
 }
 
-nav p.text {
+nav p {
     font-size: 13px;
     text-align: right;
     word-spacing: 12px;
@@ -26,24 +26,15 @@ a.navbar:active {
 #glogo {
     display: flex;
     flex: auto;
+    width: 265px;
+    height: 100px;
     padding-top: 117px;
+    margin-left: auto;
     margin-right: auto;
     margin-bottom: 25px;
-    margin-left: auto;
-    width: 340px;
-    height: 130px;
 }
 
-.sbar {
-    text-align: center;
-}
-
-.sbarbutton {
-    margin: 10px;
-    text-align: center;
-}
-
-input#boogle {
+#b_search_bar {
     border-radius: 40px;
     border: 1px solid #eaeaea;
     margin: 1px;
@@ -56,108 +47,121 @@ input#boogle {
     line-height: 34px;
 }
 
-input#boogle:hover {
+#boo_bar {
+    text-align: center;
+}
+
+#boo_bar_button {
+    margin: 10px;
+    text-align: center;
+}
+
+#b_search_bar:hover {
     border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+    cursor: text;
 }
 
-input#boogle:focus {
+#b_search_bar:focus {
     border-color: #4d90fe;
+    cursor: text;
 }
 
-input.gbutton[type="submit"] {
+#b_button {
     margin: 20px 4px;
     min-width: 54px;
+    background-color: #f2f2f2;
     color: #5f6368;
     border: 1px solid #f2f2f2;
     height: 36px;
     line-height: 27px;
+    cursor: pointer;
     border-radius: 4px;
     font-size: 14px;
     padding: 0px 16px;
 }
 
-input.gbutton:hover {
-    box-shadow: 2px 2px #f2f2f2;
+#b_button:hover {
+    box-shadow: 1px 1px #f2f2f2;
+    cursor: pointer;
     color: black;
 }
 
-div.text#languages {
+#languages {
     margin-top: 16px;
     text-align: center;
     font-size: small;
     line-height: 3px;
 }
 
+a.language {
+    margin-left: 3px;
+}
+
 a.language:visited,
 a.language:link {
+    cursor: pointer;
     text-decoration: none;
 }
 
 a.language:hover,
 a.language:active {
+    cursor: pointer;
     text-decoration: underline;
 }
 
-div.text#languages span>a.language {
-    margin-left: 3px;
-}
-
-footer {
+#flex_footer {
+    background-color: #f2f2f2;
     position: fixed;
     bottom: 0;
+    left: 0;
+    right: 0;
 }
 
-footer {
-    background-color: #f2f2f2;
-}
-
-a.googlefooter:visited,
-a.googlefooter:link {
-    text-decoration: none;
-}
-
-a.googlefooter:hover,
-a.googlefooter:active {
-    text-decoration: underline;
-}
-
-a.googlefooter {
+a.b_footer {
+    display: inline-block;
     color: #9e6f6f;
     line-height: 40px;
     font-size: 10pt;
-    margin-left: 27px;
-    margin-right: 27px;
+    font-size: small;
+}
+
+a.b_footer:visited,
+a.b_footer:link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a.b_footer:hover,
+a.b_footer:active {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 #location {
-    text-align: left;
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: row nowrap;
     color: #9e6f6f;
-    padding-left: 27px;
+    margin-left: 30px;
     line-height: 40px;
     font-size: 11pt;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
 }
 
-hr {
-    display: block;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 0;
-    padding: 0;
+#boo_footer {
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: row nowrap;
+    justify-content: space-between;
 }
 
-span#f1 {
-    position: relative
-    line-height: 40px;
-    font-size: 10px;
-    font-size: small;
-    left: 0;
-}
+#boo_footer span:nth-child(1) a{
+    padding-left: 30px;
+    margin-right: -7px;
+} 
 
-span#f2 {
-    position: relative;
-    margin-left: 910px;
-    line-height: 40px;
-    font-size: 10px;
-    font-size: small;
-    right: 0;
+#boo_footer span:nth-child(2) a{
+    padding-right: 30px;
+    margin-left: -7px;
 }
